@@ -72,7 +72,7 @@ heating_gain: 2
 step_pin: can0:EXT_STEP
 dir_pin: can0:EXT_DIR
 enable_pin: !can0:EXT_EN
-rotation_distance: 35.06
+rotation_distance: 34.6544
 gear_ratio: 75:10 #for sherpa mini 8t motor
 microsteps: 64
 full_steps_per_rotation: 200 #1.8deg Motor
@@ -115,7 +115,7 @@ cs_pin: can0:ADXL_CS
 spi_software_sclk_pin: can0:ADXL_SCLK
 spi_software_mosi_pin: can0:ADXL_MOSI
 spi_software_miso_pin: can0:ADXL_MISO
-axes_map: x,z,-y
+# axes_map: x,z,-y
 
 [resonance_tester]
 accel_chip: adxl345
@@ -123,13 +123,13 @@ probe_points:
     150,150,20  # an example for a 350mm printer
     
 [input_shaper]
-shaper_freq_x: 68.8 # center frequency for the X axis filter
+shaper_freq_x: 67.2 # center frequency for the X axis filter
 shaper_type_x: mzv # filter type for the X axis
-damping_ratio_x: 0.060 # damping ratio for the X axis
+damping_ratio_x: 0.070 # damping ratio for the X axis
 
-shaper_freq_y:45.2 # center frequency for the Y axis filter
+shaper_freq_y:43.6 # center frequency for the Y axis filter
 shaper_type_y: mzv # filter type for the Y axis
-damping_ratio_y: 0.057 # damping ratio for the Y axis
+damping_ratio_y: 0.056 # damping ratio for the Y axis
 
 
 ## RGB
