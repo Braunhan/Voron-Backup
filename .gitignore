@@ -1,4 +1,4 @@
- saved_variables.cfg
- adxl_results/belts/*.csv
- adxl_results/vibrations/*.tar.gz
- telegram.conf
+saved_variables.cfg
+results/ShakeTune_results/
+moonraker-sql.db
+services/telegram.conf
